@@ -78,12 +78,9 @@ public class Main {
         flat[0] = 1;
         flat[1] = 2;
         flat[2] = 3;
-        //flat[3] = 4;
-        //flat[4] = 5;
+        flat[3] = 4;
+        flat[4] = 5;
         for (int i = 0; i < flat.length; i++) {
-            //System.out.print(flat[i]);
-            //if (i != flat.length-1 ) {
-                //System.out.print(", ");
             if (flat[i] % 2 != 0) {
                 flat[i] += 1; }
                         }
